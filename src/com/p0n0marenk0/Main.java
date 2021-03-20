@@ -23,7 +23,7 @@ package com.p0n0marenk0;
             list.add(20);
             list.add(30);
             list.set(1, 123);
-            System.out.println(list); // [10, 123, 30]
-            list.toString();
+           // System.out.println(list); // [10, 123, 30]
+            System.out.println("Напечатаный красиво методом toString: " + list.toString());
         }
     }

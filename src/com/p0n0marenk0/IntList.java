@@ -42,8 +42,6 @@ public class IntList {
 
     @Override
     public String toString() {
-        String textForPrint = Arrays.toString(array);
-        System.out.println(textForPrint);
-        return textForPrint;
+        return Arrays.toString(array);
     }
 }
